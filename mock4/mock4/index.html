@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Home Page</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="./doctor.html"> Doctor Page</a></li>
+            <li><a href="./Appointment.html"> Appointment Page</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h1>Home Page</h1>
+       <div id="btn">
+        <button id="loginbtn">Login</button>
+        <button id="Signupbtn">Signup</button>
+       </div>
+        <form id="login">
+            <input type="email" placeholder="email" id="mail">
+            <br>
+            <input type="password" placeholder="Password" id="pass">
+            <br>
+            <input type="submit" value="Login">
+        </form>
+        <form id="signup">
+            <input type="text" placeholder="Username" id="name">
+            <input type="email" placeholder="email" id="email">
+            <input type="password" placeholder="Password" id="password">
+            <!-- <input type="checkbox" placeholder="Repeat Password"> -->
+            <div>
+                <input type="checkbox" id="check">
+            <label for="scales" id="checklabel">Doctor</label>
+            </div>
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
+
+<script src="./scripts/index.js"></script>

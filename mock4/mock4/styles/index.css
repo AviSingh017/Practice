@@ -1,0 +1,75 @@
+#navbar{
+    height: 50px;
+    display: flex;
+    text-align: center;
+    margin-top: 20px;
+    background-color: pink;
+}
+
+#navbar>ul{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#navbar>ul>li{
+    list-style: none;
+}
+#navbar>ul>li>a{
+    text-decoration: none;
+}
+#navbar>ul>li>a:hover{
+    text-decoration: underline;
+}
+#container>h1{
+    text-align: center;
+    margin-top: 10px;
+}
+#login{
+  background-color: black;
+  width: 250px;
+  margin: auto;
+}
+#login>input{
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+}
+#login>input[type="submit"]{
+    width: 90%;
+   background-color: #5197d6;
+   color:white;
+   border: none;
+}
+#signup{
+    display: none;
+}
+   #signup{
+    background-color: black;
+    width: 250px;
+    margin: auto;
+  }
+  #signup>input{
+      width: 80%;
+      margin: 10px;
+      padding: 10px;
+  }
+  #signup>input[type="submit"]{
+      width: 90%;
+     background-color: #5197d6;
+     color:white;
+     border: none;
+  }
+  #checklabel{
+    color: white;
+  }
+#btn{
+    text-align: center;
+    margin-bottom: 10px;
+}
+ /* #loginbtn{
+     background-color: black;
+     padding: 5px;
+     color: white;
+     border: none;
+ } */

@@ -1,0 +1,70 @@
+#navbar {
+  height: 50px;
+  display: flex;
+  text-align: center;
+  margin-top: 20px;
+  background-color: pink;
+}
+
+#navbar > ul {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+}
+#navbar > ul > li {
+  list-style: none;
+}
+#navbar > ul > li > a {
+  text-decoration: none;
+}
+#navbar > ul > li > a:hover {
+  text-decoration: underline;
+}
+#container > h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#data-list-wrapper {
+  display: flex;
+  gap: 20px;
+  background-color: rgb(224, 221, 221);
+  padding: 50px;
+}
+.item-list {
+  width: 24%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: white;
+  padding: 10px;
+}
+.item-list>h1{
+    text-align: center;
+}
+.bookBtn {
+  display: block;
+  margin: auto;
+  background-color: #1c2467;
+  color: white;
+  padding: 8px 30px;
+  border: none;
+}
+
+#filterSection{
+    margin-top: 20px;
+}
+
+#sort{
+    
+    margin-top: 20px;
+}
+#searching{
+    margin-top: 20px;
+}
+#btn{
+    margin: 20px;
+    
+}
+#btn>button{
+    padding: 10px 20px ;
+}

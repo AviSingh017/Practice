@@ -1,0 +1,45 @@
+{
+  "freelancers": [
+    {
+      "name": "gourav",
+      "email": "gt9675tiwari@gmail.com",
+      "password": "123",
+      "profession": "Web Developer",
+      "skills": [
+        "cricket",
+        "volleyball"
+      ],
+      "hourly_rate": "12",
+      "profile_picture": "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14116d60/images/hi-res/005013364/005013364_02_Back.jpg?sw=299&sh=397",
+      "isBooked": false,
+      "id": 1
+    },
+    {
+      "name": "hemensan",
+      "email": "gt9675tiwari@gmail.com",
+      "password": "1234",
+      "profession": "Graphic Designer",
+      "skills": [
+        "cricket",
+        "volleyball"
+      ],
+      "hourly_rate": "123",
+      "profile_picture": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/21888092/2023/2/9/92ba4c4f-1262-4f82-af18-3a987befaa3c1675933639705PumaActiveSoftTeeBrandLogoPrintedCottonT-Shirt1.jpg",
+      "isBooked": true,
+      "id": 2
+    },{
+        "name": "ritik",
+        "email": "ritik@gmail.com",
+        "password": "123",
+        "profession": "Student",
+        "skills": [
+          "cricket",
+          "volleyball"
+        ],
+        "hourly_rate": "12",
+        "profile_picture": "https://www.levi.in/dw/image/v2/BBRC_PRD/on/demandware.static/-/Sites-LeviMaster-Catalog/en_IN/dw14116d60/images/hi-res/005013364/005013364_02_Back.jpg?sw=299&sh=397",
+        "isBooked": false,
+        "id": 3
+      }
+  ]
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/appointment.css">
+    <title>Appointment Page</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="./doctor.html"> Doctor Page</a></li>
+            <li><a href="./Appointment.html"> Appointment Page</a></li>
+        </ul>
+    </div>
+
+    <div id="filterSection">
+        <select name="" id="filter">
+            <option value="">Filter by Specialization</option>
+            <option value="Cardiologist">Cardiologist</option>
+            <option value="Dermatologist">Dermatologist</option>
+            <option value="Pediatrician">Pediatrician</option>
+            <option value="Psychiatrist">Psychiatrist</option>
+        </select>
+    </div>
+
+    <div id="sort">
+        <select name="" id="sorting">
+            <option value="">Sort By Date</option>
+            <option value="asc">ASC</option>
+            <option value="desc">DESC</option>
+        </select>
+    </div>
+    <div id="searching">
+        <input type="text" name="" id="search">
+        <button id="searchbtn">Search</button>
+    </div>
+    <div id="container">
+        <h1>Appointment Page</h1>
+
+        <div id="data-list-wrapper">
+
+        </div>
+    </div>
+
+    <div id="btn">
+        <button id="prev">Prev</button>
+    <button id="next">Next</button>
+
+    </div>
+</body>
+</html>
+
+<script src="./scripts/appointment.js"></script>

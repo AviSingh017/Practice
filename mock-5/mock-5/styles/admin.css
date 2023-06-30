@@ -1,0 +1,21 @@
+#Navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    margin: auto    ;
+}
+h1{
+    text-align: center;
+}
+#Navbar2{
+ display: flex;
+ justify-content: space-around;
+ margin: 30px auto;
+ width: 80%;
+ /* background-color: pink; */
+ padding: 20px 0px;
+}
+#Navbar2>a{
+    text-decoration: none;
+    font-size: 20px;
+}

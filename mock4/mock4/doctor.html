@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/doctor.css">
+    <title>Doctor Page</title>
+</head>
+<body>
+    <div id="navbar">
+        <ul>
+            <li><a href="index.html"> Home Page</a></li>
+            <li><a href="./doctor.html"> Doctor Page</a></li>
+            <li><a href="./Appointment.html"> Appointment Page</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <h1>Doctor Page</h1>
+        <form action="" id="form">
+            <input type="text" name="" id="name" placeholder="name">
+            <br>
+            <input type="text" name="" id="image" placeholder="ImageURL">
+            <br>
+            <select name="" id="filter">
+                <option value="">Filter by Specialization</option>
+                <option value="Cardiologist">Cardiologist</option>
+                <option value="Dermatologist">Dermatologist</option>
+                <option value="Pediatrician">Pediatrician</option>
+                <option value="Psychiatrist">Psychiatrist</option>
+            </select>
+            <br>
+            <input type="text" name="" id="exp" placeholder="Experience">
+            <br>
+            <input type="text" name="" id="location" placeholder="Location">
+            <br>
+            <input type="date" name="" id="date">
+            <br>
+            <input type="number" name="" id="slots" placeholder="Slots">
+            <br>
+            <input type="number" name="" id="fee" placeholder="Fee">
+            <br>
+            <input type="submit" value="Submit">
+            <br><br>
+        </form>
+    </div>
+        <table>
+           <thead>
+            <tr>
+                <th>Name Of The Doctor</th>
+                <th>Specialization</th>
+                <th>Experience</th>
+                <th>location</th>
+                <th>slots</th>
+                <th>Edit</th>
+                <th>Delete</th>
+                <th>Appointments</th>
+            </tr>
+           </thead>
+           <tbody id="body">
+
+           </tbody>
+        </table>
+</body>
+</html>
+
+
+<script src="./scripts/doctor.js"></script>
